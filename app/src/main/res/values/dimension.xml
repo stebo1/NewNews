@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="width_100dp">100dp</dimen>
+
+    <dimen name="space_10">10dp</dimen>
+
+    <dimen name="news_title">20sp</dimen>
+    <dimen name="news_date">15sp</dimen>
+</resources>

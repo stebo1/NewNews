@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BgRed"
+    android:orientation="vertical"
+    tools:context=".PreferenceActivity">
+
+    <!-- 1st spinner block- Category -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_10"
+        android:background="@color/White"
+        android:padding="@dimen/space_10">
+
+        <TextView
+            android:layout_width="@dimen/width_100dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/space_10"
+            android:text="@string/preference_category_text"
+            android:textColor="@color/Black" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+    </LinearLayout>
+
+    <!-- 2nd spinners block - Language and Counrty -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_10"
+        android:background="@color/White"
+        android:orientation="vertical">
+
+        <!-- 1st spinner, 2nd spinners block - Language -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/space_10">
+
+            <TextView
+                android:layout_width="@dimen/width_100dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/space_10"
+                android:text="@string/preference_country_text"
+                android:textColor="@color/Black" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+        </LinearLayout>
+
+        <!-- 2nd spinner, 2nd spinners block - Country -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/space_10">
+
+            <TextView
+                android:layout_width="@dimen/width_100dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/space_10"
+                android:text="@string/preference_language_text"
+                android:textColor="@color/Black" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 3th block - sort order -->
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_10"
+        android:background="@color/White"
+        android:padding="@dimen/space_10"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preference_orederBy_text"
+            android:textColor="@color/Black"
+            android:padding="@dimen/space_10"/>
+
+        <!-- 1st option - more recent -->
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/more_recent" />
+
+        <!-- 2nd option - more popular -->
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/more_popular" />
+
+        <!-- 3th option - more related -->
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/more_related" />
+
+    </RadioGroup>
+
+    <!-- 4th block - period -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_10"
+        android:background="@color/White"
+        android:padding="@dimen/space_10">
+
+        <TextView
+            android:layout_width="@dimen/width_100dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/space_10"
+            android:text="@string/preference_period_text"
+            android:textColor="@color/Black"
+            android:gravity="center_vertical"/>
+
+        <EditText
+            android:id="@+id/preference_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+</LinearLayout>

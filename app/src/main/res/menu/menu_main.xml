@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/go_to_favourite"
+        android:title="@string/main_menu_favourite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/go_to_options"
+        android:title="@string/main_menu_options"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/go_to_refresh"
+        android:title="@string/main_menu_refresh"
+        app:showAsAction="never" />
+
+</menu>

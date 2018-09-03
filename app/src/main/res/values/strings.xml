@@ -1,0 +1,26 @@
+<resources>
+    <!-- app labels -->
+    <string name="app_name">New News</string>
+    <string name="app_preference">Preferences</string>
+    <string name="app_options">Options</string>
+
+    <!-- main menu options -->
+    <string name="main_menu_options">Settings</string>
+    <string name="main_menu_refresh">Refresh</string>
+    <string name="main_menu_favourite">Favourite</string>
+
+    <!-- preference activity headers -->
+    <string name="preference_category_text">Category:</string>
+    <string name="preference_language_text">Language:</string>
+    <string name="preference_country_text">Country:</string>
+    <string name="preference_orederBy_text">Order by:</string>
+    <string name="preference_period_text">Period from:</string>
+
+    <!-- preference activiti radioGroup options text -->
+    <string name="more_recent">More Recent</string>
+    <string name="more_popular">More Popular</string>
+    <string name="more_related">More Related</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
